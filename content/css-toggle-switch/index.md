@@ -3,13 +3,15 @@ emoji: 👻
 title: CSS 토글 버튼 toggle switch 만들기
 date: '2022-08-30 00:00:00'
 author: coding-palette
-tags: 블로그 css
-categories: 블로그 css
+tags: css
+categories: css
 ---
 
 css를 이용해서 토글 스위치를 만들어 보겠습니다.
 
 ![img1.jpg](img1.jpg)
+
+## 1.HTML
 
 ```html
 <div class="toggle_btn_container"> 
@@ -20,6 +22,7 @@ css를 이용해서 토글 스위치를 만들어 보겠습니다.
 </div>
 ```
 
+## 2.CSS
 ```css
 .toggle_btn_container {  
     padding: 10px;  
@@ -81,6 +84,8 @@ css를 이용해서 토글 스위치를 만들어 보겠습니다.
 }
 ```
 
+## 3.JavaScript
+
 ```js
 const toggle_btn = document.querySelector('#toggle_btn');
 const toggle_label = document.querySelector('.toggle_label');
@@ -94,3 +99,7 @@ toggle_btn.addEventListener('change' , function(){
 
 [사이트가기](https://jsfiddle.net/tqa36crg/)
 
+
+```toc
+
+```
