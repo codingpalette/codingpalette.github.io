@@ -3,8 +3,8 @@ emoji: 👻
 title: python 코딩테스트 - 신고 결과 받기
 date: '2022-09-19 16:00:00'
 author: coding-palette
-tags: python, 코딩테스트
-categories: python, 코딩테스트
+tags: python 코딩테스트
+categories: python 코딩테스트
 ---
 
 ## 1.신고 결과 받기 문제 설명
