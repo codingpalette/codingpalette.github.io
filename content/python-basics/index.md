@@ -352,8 +352,68 @@ t2 = (1,)처럼 단지 1개의 요소만을 가질 때는 요소 뒤에 콤마(,
 
 튜플은 값을 변화시킬 수 없다는 점만 제외하면 리스트와 완전히 동일합니다.
 
+## 7.딕셔너리
+딕셔너리는 "키(Key) - 값(Value)" 쌍을 요소로 갖는 컬렉션 입니다.
+
+딕셔너리는 흔히 Map 이라고도 불리우는데, 키(Key)로 신속하게 값(Value)을 찾아내는 해시테이블(Hash Table) 구조를 가지고 있습니다.
+
+자바스크립트의 object라고 생각하시면 편합니다.
+
+### 7-1.딕셔너리 만들기
+```python
+dic = {"name": "홍길동", "age": 25, "phone": "010-000"}
+print(dic)
+# Output:
+# {'name': '홍길동', 'age': 25, 'phone': '010-000'}
+```
+
+딕셔너리 dic의 정보
+
+|  key   | 	value  |
+|:------:|:-------:|
+|  name  |   홍길동   |
+|  age	  |   25    |
+| phone	 | 010-000 |
+
+### 7-2.딕셔너리 값 찾기
+딕셔너리의 값은 key를 이용해서 찾을 수 있습니다.
+```python
+dic = {"name": "홍길동", "age": 25, "phone": "010-000"}
+print(dic["name"])
+# Output:
+# 홍길동
+```
+
+### 7-3.딕셔너리 추가,수정,삭제
+추가 방법
+```python
+dic = {"name": "홍길동", "age": 25, "phone": "010-000"}
+dic["gender"] = "man"
+print(dic)
+# Output:
+# {'name': '홍길동', 'age': 25, 'phone': '010-000', 'gender': 'man'}
+```
+
+수정 방법
+```python
+dic = {"name": "홍길동", "age": 25, "phone": "010-000"}
+dic["age"] = 30
+print(dic)
+# Output:
+# {'name': '홍길동', 'age': 30, 'phone': '010-000'}
+```
+
+삭제 방법
+```python
+dic = {"name": "홍길동", "age": 25, "phone": "010-000"}
+del dic["phone"]
+print(dic)
+# Output:
+# {'name': '홍길동', 'age': 25}
+```
 
 
+[//]: # (https://wikidocs.net/16)
 [//]: # (https://wikidocs.net/1162)
 
 
