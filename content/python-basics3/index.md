@@ -137,11 +137,6 @@ for index, color in enumerate(rainbow):
 
 ```
 
-[//]: # (## 3.map)
-
-
-
-
 
 
 ```toc
