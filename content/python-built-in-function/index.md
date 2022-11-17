@@ -111,6 +111,58 @@ print(f'변경된 값은 {result} 입니다.')
 # 변경된 값은 [2, 3, 4, 5, 6] 입니다.
 ```
 
+## 8.int
+
+문자열 형태의 숫자나 소수점이 있는 숫자 등을 정수 형태로 돌려주는 함수 입니다.
+
+```python
+print(int("1"))
+print(int(1.2))
+
+# Output:
+# 1
+# 1
+```
+
+
+## 9.len
+
+객체의 길이(요소 개수)를 반환 하는 함수 입니다.
+
+```python
+str = "안녕!"
+lists = [1, 2, 3, 4, 5, 6, 7, 8]
+
+print(len(str))
+print(len(lists))
+
+# Output:
+# 3
+# 8
+```
+
+## 10.type
+
+자료형이 무엇인지 알려 주는 함수 입니다.
+
+```python
+str = "안녕!"
+lists = [1, 2, 3, 4, 5, 6, 7, 8]
+number = 1
+dicts = {"이름": "홍길동"}
+
+print(type(str))
+print(type(lists))
+print(type(number))
+print(type(dicts))
+
+# Output:
+# <class 'str'>
+# <class 'list'>
+# <class 'int'>
+# <class 'dict'>
+
+```
 
 
 
